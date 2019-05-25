@@ -1,3 +1,6 @@
 var hello = require("./hello.js");
+const uuidv1 = require('uuid/v1');
 
-hello.saySomething();
+console.log(`Generating uuid: ${uuidv1()}`);
+
+// hello.saySomething();
